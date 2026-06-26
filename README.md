@@ -1,5 +1,7 @@
 # brewcask-autoupdate
 
+Shell script for daily brewcask update task.
+
 Runs the requested Homebrew command daily at 8:00 AM local time:
 
 ```sh

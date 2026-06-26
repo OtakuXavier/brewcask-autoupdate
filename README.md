@@ -15,6 +15,18 @@ chmod +x brew-autoupdate.sh install-launch-agent.sh uninstall-launch-agent.sh
 ./install-launch-agent.sh
 ```
 
+The execution time is configurable with variables:
+
+```sh
+BREW_AUTOUPDATE_HOUR=8 BREW_AUTOUPDATE_MINUTE=0 ./install-launch-agent.sh
+```
+
+Use 24-hour time. For example, 9:30 PM is:
+
+```sh
+BREW_AUTOUPDATE_HOUR=21 BREW_AUTOUPDATE_MINUTE=30 ./install-launch-agent.sh
+```
+
 The installer writes this LaunchAgent:
 
 ```text
